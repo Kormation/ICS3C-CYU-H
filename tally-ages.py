@@ -12,7 +12,6 @@ ages_file.close()
 
 #For loop that prints and checks for people who can and can't vote.
 for age in ages:
-    print(age)
     
     if (age >= 18):
         voter += 1
@@ -21,7 +20,7 @@ for age in ages:
         non_voter += 1
 
 #Prints how many voters there are.
-print(f"\nVoters: {voter}")
+print(f"Voters: {voter}")
 
 #Prints how many non voters there are.
 print(f"Non-voters: {non_voter}")
