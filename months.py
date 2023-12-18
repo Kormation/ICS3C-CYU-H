@@ -30,11 +30,12 @@ while month not in months:
     
 if month in ["January", "March", "May", "July", "August", "October", "December"]:
     num_days += 31
+    print(f"{month} has {num_days} days")
 
 elif month in ["April", "June", "September", "November"]:
     num_days += 30
+    print(f"{month} has {num_days} days")
     
 else:
     print("February has 28 or 29 days")
     
-print(f"{month} has {num_days} days")
